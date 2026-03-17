@@ -9,7 +9,7 @@ namespace Todo.Models.RequestDTO
     public class ListRequest
     {
         public int ID { get; set; }
-        public Guid TaskGID { get; set; }
+        public Guid? TaskGID { get; set; }
         public Guid UserGID { get; set; }
         public string TaskTitle { get; set; }
         public string TaskDescription { get; set; }

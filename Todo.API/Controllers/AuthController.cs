@@ -28,7 +28,7 @@ namespace Todo.API.Controllers
          public IActionResult UserRegister(RegisterRequest l1)
          {
              var result = _userInterface.Authorization(l1);
-             if (result.statuscode == 100 || result.statuscode == 101)
+             if (result.statuscode == 100)
              {
                  return BadRequest(result);
              }
