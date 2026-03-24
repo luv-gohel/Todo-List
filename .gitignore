@@ -17,3 +17,18 @@ obj/
 # OS
 .DS_Store
 Thumbs.db
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+.cache/
+
+# Environment files (optional - uncomment if needed)
+# .env
+# .env.local
+
+# Editor
+.idea/
+*.swp
+*.swo
